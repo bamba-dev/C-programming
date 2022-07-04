@@ -5,7 +5,7 @@
     //Main est la fonction principale
     int main() {
 
-    printf("TP 1, \"Syntaxe et structure\" Hello World!");
+    printf("TP 1, \"Syntaxe et structure\ \n \t \" Hello World!");
 
     return 0;
     }
