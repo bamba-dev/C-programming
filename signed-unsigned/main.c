@@ -3,10 +3,13 @@
 
 int main()
 {
-    int mon_int = 14;
-    int taille_int = sizeof(int);
+    short mon_short = 34;
 
-    printf("Mon int = %d et prend en memoire %d octets \n", mon_int, taille_int);
+    printf("Mon mon_short = %d et prend en memoire %d octets \n", mon_short, sizeof(short));
+
+    long mon_long = 140;
+
+    printf("Mon mon_long = %ld et prend en memoire %d octets \n", mon_long, sizeof(long));
 
 
     char mon_char = 'A';
