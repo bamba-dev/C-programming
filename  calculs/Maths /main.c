@@ -1,21 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
 int main(int argc, char *argv[])
 {
-  int resultat = 0, nombre1 = 0, nombre2 = 0;
+  int resultat = 0, number1 = 0, number2 = 0;
 
-  // On demande les nombres 1 et 2 à l'utilisateur :
+  printf("Entrez le premier nombre\n");
+  scanf("%d", &number1);
 
-  printf("Entrez le nombre 1 : ");
-  scanf("%d", &nombre1);
-  printf("Entrez le nombre 2 : ");
-  scanf("%d", &nombre2);
+  printf("Entrez le deuxieme nombre\n");
+  scanf("%d", &number2);
 
-  // On fait le calcul :
+  resultat = number1 + number2;
 
-  resultat = nombre1 + nombre2;
+  printf("%d + %d = %d\n", number1, number2, resultat);
 
-  // Et on affiche l'addition à l'écran :
+  int num = 5;
+  num++;
 
-  printf ("%d + %d = %d\n", nombre1, nombre2, resultat);
-
+  printf("%d\ ", num);
   return 0;
 }
