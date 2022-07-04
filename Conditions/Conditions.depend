@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1656947378 source:/home/mouhamed/Desktop/formation_en_C/Conditions/main.c
+	<stdio.h>
+	<stdlib.h>
+
