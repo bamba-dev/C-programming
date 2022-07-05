@@ -15,7 +15,7 @@ int main()
     return 0; */
 
 
-for (int compteur = 10 ; compteur >= 0 ; compteur--)
+for (int compteur = 15 ; compteur >= 12 ; compteur--)
 {
     printf("%d\n", compteur);
 }
