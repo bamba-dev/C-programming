@@ -19,6 +19,6 @@ int main(int argc, char *argv[])
   int num = 5;
   num++;
 
-  printf("%d\ ", num);
+  printf("%d\n", num);
   return 0;
 }
